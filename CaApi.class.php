@@ -14,7 +14,7 @@ class CAApi {
 	 *$password 密码
 	 *$cookie cookie      
 	 */
-	private  $ykth;        
+    private  $ykth;        
     private  $password;   
     private  $cookie;
     /**
