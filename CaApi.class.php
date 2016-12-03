@@ -23,11 +23,11 @@ class CAApi {
      * @param String $ykth
      * @param String $password
      * @param String $mode   1为教务系统模式
-	 *                       2为一卡通模式
-	 *                       3为图书馆模式
-	 *                       4为财务系统模式
-	 * 实例化类时 ，必须带上相应模式的参数，每个模式下可自由使用其方法，使用不同模式下的方法需要重新
-	 * 实例化，否则实例化失败将无法使用
+     *                       2为一卡通模式
+     *                       3为图书馆模式
+     *                       4为财务系统模式
+     * 实例化类时 ，必须带上相应模式的参数，每个模式下可自由使用其方法，使用不同模式下的方法需要重新
+     * 实例化，否则实例化失败将无法使用
      */
     public function __construct($ykth,$password,$mode){    
     	$this->ykth = $ykth; 
@@ -90,8 +90,8 @@ class CAApi {
     
     
 	/**
-	 * 
-	 * 
+	 * 登录入口	
+         * 
 	 */
 	function loginPage(){
 		$url = "http://ca.jxust.edu.cn/zfca/login?yhlx=student&login=0122579031373493699&url=http://ecard.jxust.edu.cn/jxustPortalHome.action";
